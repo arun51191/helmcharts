@@ -1,0 +1,28 @@
+apiVersion: v1
+entries:
+  wordpress:
+  - apiVersion: v1
+    appVersion: 5.3.2
+    created: "2020-05-02T15:52:02.931089237Z"
+    deprecated: true
+    description: This is the custom chart which uses the rook-ceph-block as a storage
+      class.
+    digest: 40a99bc188dd1914999021c016b797c5f18cbfc10f7260076ba9290c4679924e
+    engine: gotpl
+    home: http://www.wordpress.com/
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    urls:
+    - wordpress-9.0.3.tgz
+    version: 9.0.3
+generated: "2020-05-02T15:52:02.926596086Z"
